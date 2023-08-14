@@ -4,12 +4,12 @@ int main(){
     float nota1, nota2, nota3, media;
     char turno;
 
-    printf("Digite o turno do aluno:\n");
     scanf("%c", &turno);
 
+    printf("Digite o turno do aluno:\n");
 
 
-    printf("Digite notas:\n");
+    printf("Digite as notas dos alunos:\n");
     scanf("%f", &nota1);
     scanf("%f", &nota2);
     scanf("%f", &nota3);
