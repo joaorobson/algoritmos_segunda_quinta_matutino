@@ -7,8 +7,6 @@ int main(){
     scanf("%c", &turno);
 
     printf("Digite o turno do aluno:\n");
-
-
     printf("Digite as notas dos alunos:\n");
     scanf("%f", &nota1);
     scanf("%f", &nota2);
@@ -21,7 +19,7 @@ int main(){
         media = 10;
     }
 
-    printf("MEDIA: %f\n", media);
+    printf("MEDIA DO ALUNO: %f\n", media);
     printf("Aluno do turno %c\n", turno);
 
     if(turno == 'm'){
