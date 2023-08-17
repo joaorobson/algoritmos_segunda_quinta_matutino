@@ -6,8 +6,7 @@ int main(){
 
     scanf("%c", &turno);
 
-    printf("Digite o turno do aluno:\n");
-    printf("Digite as notas dos alunos:\n");
+    printf("Digite as notas dos alunos abaixo:\n");
     scanf("%f", &nota1);
     scanf("%f", &nota2);
     scanf("%f", &nota3);
