@@ -13,24 +13,29 @@ int main(){
     scanf("%lld", &numero1);
     scanf("%lld", &numero2);
 
-    if(operacao != '+' && operacao != '-' && operacao != '*' &&
-      operacao != '/' && operacao != '%'){
-        printf("OPERACAO INVALIDA!!\n");
+    printf("operacao: %c\n", operacao);
+
+    if(operacao == '+'){
+        printf("resultado: %lld\n", numero1 + numero2);
+    } else if(operacao == '-'){
+        printf("resultado: %lld\n", numero1 - numero2);
+    } else if(operacao == '*'){
+        printf("resultado: %lld\n", numero1 * numero2);
+    } else if(operacao == '/'){
+        printf("resultado: %lld\n", numero1 / numero2);
+    } else if(operacao == '%'){
+        printf("resultado: %lld\n", numero1 % numero2);
+    } else if(operacao == 'c' && numero1 > numero2){
+        printf("%lld maior que %lld\n", numero1, numero2);
+    } else if(operacao == 'c' && numero1 < numero2){
+        printf("%lld menor que %lld\n", numero1, numero2);
+    } else if(operacao == 'c' && numero1 == numero2){
+        printf("%lld igual a %lld\n", numero1, numero2);
     } else {
-        if(operacao == '+'){
-            resultado = numero1 + numero2;
-        } else if(operacao == '-'){
-            resultado = numero1 - numero2;
-        } else if(operacao == '*'){
-            resultado = numero1 * numero2;
-        } else if(operacao == '/'){
-            resultado = numero1 / numero2;
-        } else if(operacao == '%'){
-            resultado = numero1 % numero2;
-        } 
-        printf("resultado: %lld\n", resultado);
-        printf("operacao: %c\n", operacao);
+        printf("OPERACAO INVALIDA!!!\n");
     }
+
+    
 
  
 
