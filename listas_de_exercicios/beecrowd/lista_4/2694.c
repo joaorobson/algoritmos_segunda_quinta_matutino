@@ -5,6 +5,7 @@ int main(){
     int numLinhas;
     scanf("%d", &numLinhas);
     char textoLinha[15];
+    
     for(int i = 0;i < numLinhas;i++){
         scanf("%s", textoLinha);
         char valor1[3] = {textoLinha[2], textoLinha[3], '\0'};
