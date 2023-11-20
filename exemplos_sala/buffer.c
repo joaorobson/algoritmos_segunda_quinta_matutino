@@ -7,6 +7,8 @@ int main(){
     scanf("%d", &b);
 
     printf("a: %d\nb: %d\n", a,  b);
+
+    
     scanf("%d", &c);
     printf("c: %d\n", c);
     return 0;
